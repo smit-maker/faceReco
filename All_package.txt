@@ -1,0 +1,47 @@
+sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-100
+sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test
+sudo apt-get install libatlas-base-dev
+sudo apt-get install libjasper-dev
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+sudo pip3 install opencv-contrib-python
+//opencv-python==4.4.0.46
+
+====================================================================
+
+
+
+sudo nano /etc/dphys-swapfile
+sudo /etc/init.d/dphys-swapfile stop
+sudo /etc/init.d/dphys-swapfile start
+free -m
+
+sudo raspi-config
+
+sudo apt-get update
+sudo apt-get install build-essential cmake
+sudo apt-get install libgtk-3-dev
+sudo apt-get install libboost-all-dev
+
+pip3 install numpy
+//numpy==1.16.2
+
+pip3 install dlib
+
+
+=============================================================================
+
+sudo pip3 install face-recognition
+
+==================================================================================
+
+///python3 -m pip freeze
+
+click==7.1.2
+cmake==3.18.4
+dlib @ https://files.pythonhosted.org/packages/eb/99/6e2334b09bf48493b243a0fcb60a60659c847f86cecc1c2a7839609f88eb/dlib-19.8.1.tar.gz#sha256=a0dd66c4027bdcd5b1b385d51ae04d549f937c8939b546a4b937642e658715a1
+face-recognition==1.3.0
+face-recognition-models==0.3.0
+numpy==1.14.5
+opencv-python==4.0.0.21
+Pillow==8.0.1

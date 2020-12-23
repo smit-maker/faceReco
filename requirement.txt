@@ -1,0 +1,8 @@
+opencv-python==4.4.0.46
+numpy==1.16.2
+dlib @ https://files.pythonhosted.org/packages/eb/99/6e2334b09bf48493b243a0fcb60a60659c847f86cecc1c2a7839609f88eb/dlib-19.8.1.tar.gz#sha256=a0dd66c4027bdcd5b1b385d51ae04d549f937c8939b546a4b937642e658715a1
+click==7.0
+cmake==3.18.4.post1
+face-recognition==1.3.0
+face-recognition-models==0.3.0
+Pillow==5.4.1
